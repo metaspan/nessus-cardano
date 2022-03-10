@@ -19,7 +19,7 @@ RUN apt-get update \
   && apt-get install -y \
     autoconf automake build-essential g++ git jq \
     libffi-dev libgmp-dev libncursesw5 libnuma-dev libssl-dev libsystemd-dev libtinfo-dev libtool llvm \
-    make pkg-config tmux wget zlib1g-dev
+    make pkg-config tmux wget zlib1g-dev cron
 
 # Install Libsodium
 
